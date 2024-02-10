@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 60px;
+}
+.logo{
+    margin-bottom: 20px;
+}
+.input_field{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 40%;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: box-shadow 0.3s ease
+}
+.input_field:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 0 15px rgba(255, 255, 255, 0.7);
+}
+.input_field input{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.icon:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+.input_field .search{
+    margin-left: 10px;
+}
+.input_field .mic{
+    margin-left: 5px;
+}
+.input_field .lens{
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.buttons{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    /* transition: box-shadow 0.3s ease; */
+ } 
+button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #f5ecec;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 0 15px rgba(255, 255, 255, 0.7);
+}
+.languages{
+    font-size: 13px;
+}
+.languages a{
+    margin: 2px;
+    text-decoration: none;
+    transition: all 0.3 ease;
+}
+.languages a:hover{
+    text-decoration: underline;
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-content ul li a {
+    color: #70757a;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-content ul li a:hover {
+    color: #1a73e8;
+}
